@@ -13,6 +13,13 @@ thead th, tfoot th {
     border: 3px solid purple;
 }
 
+#header-bar {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    vertical-align: bottom;
+}
+
 th, td {
     padding: 2px;
 }
