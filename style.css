@@ -11,6 +11,7 @@ thead th, tfoot th {
     width: 95%;
     border-collapse: collapse;
     border: 3px solid purple;
+    font-size: small;
 }
 
 #header-bar {
@@ -27,7 +28,7 @@ th, td {
 
 
 tbody td {
-  text-align: center;
+  text-align: left;
 }
 
 tfoot th {
