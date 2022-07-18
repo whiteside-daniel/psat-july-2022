@@ -42,3 +42,11 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.homeworkButton {
+    border: double;
+    border-radius: 8px;
+    background-color: purple;
+    color: white;
+    font-size: medium !important;
+}
