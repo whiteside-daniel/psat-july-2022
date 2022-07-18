@@ -8,9 +8,8 @@ thead th, tfoot th {
 
 #cal-table {
 
-    width: 95%;
+    width: 100%;
     border-collapse: collapse;
-    border: 3px solid purple;
     font-size: small;
 }
 
@@ -24,7 +23,6 @@ thead th, tfoot th {
 th, td {
     padding: 2px;
 }
-
 
 
 tbody td {
@@ -49,4 +47,16 @@ tbody tr:nth-child(even) {
     background-color: purple;
     color: white;
     font-size: medium !important;
+}
+
+.container {
+  width: 95%;
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: #cccccc;
+  background-color: #eeeeee;
+  padding: 1%;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 15px;
 }
