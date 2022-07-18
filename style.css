@@ -8,22 +8,17 @@ thead th, tfoot th {
 
 #cal-table {
 
-    width: 100%;
+    width: 98%;
     border-collapse: collapse;
     font-size: small;
 }
 
 #header-bar {
-    width: 100%;
+    width: 97%;
     border-collapse: collapse;
     margin: auto;
     vertical-align: bottom;
 }
-
-th, td {
-    padding: 2px;
-}
-
 
 tbody td {
   text-align: left;
@@ -50,13 +45,16 @@ tbody tr:nth-child(even) {
 }
 
 .container {
-  width: 95%;
+  width: 97%;
     border: solid 5px;
     border-radius: 15px;
     border-color: #cccccc;
   background-color: #eeeeee;
-  padding: 1%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin: auto;
     margin-bottom: 15px;
+}
+
+.container-header {
+    padding: 2%;
 }
