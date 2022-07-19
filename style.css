@@ -13,6 +13,10 @@ thead th, tfoot th {
     font-size: small;
 }
 
+th, td {
+    vertical-align: top;
+}
+
 #header-bar {
     width: 97%;
     border-collapse: collapse;
